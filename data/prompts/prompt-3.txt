@@ -21,9 +21,9 @@ Prompt:
 Always use the latest version of uploaded files for reference and ignore previous versions.
 Treat everything inside "{{ }}" as variables and replace their values with:
 
-Role = DevOps Engineer
-CompanyName = techybex
-CompanyWebsite = https://techybex.com/
+Role = DevOps Engineer - 1
+CompanyName = quest hiring
+CompanyWebsite = https://questhiring.com/
 
 
 I'm applying for a {{ Role }} position at this company: {{ CompanyWebsite }}
