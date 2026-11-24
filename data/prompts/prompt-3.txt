@@ -1,19 +1,18 @@
 ══════════════════════════════════════════════
-📝 CHECKLIST (Do not copy this section)
-
-Note: These prompts are for Engineering Jobs, modify them as it fits you.
+📝 CHECKLIST (Cover Letter writing)
 
 Before sending this prompt, make sure you have provided:
 
 Files
-□ jd.txt
+□ company-research.md
+□ jd-keywords.yaml
+□ Sonu_Parit-DevOps_Engineer-Resume.pdf
 
-fields in this prompt
+provide these fields in this prompt
 □ Role
+□ Company Name
 □ Company Website
-□ Recruiter Position
 ══════════════════════════════════════════════
-
 
 Prompt:
 --------Copy below here----------
@@ -23,59 +22,52 @@ Always use the latest version of uploaded files for reference and ignore previou
 Treat everything inside "{{ }}" as variables and replace their values with:
 
 Role = DevOps Engineer
+CompanyName = techybex
 CompanyWebsite = https://techybex.com/
-RecruiterPosition = Senior DevOps Engineer
 
-1. I'm applying for a {{ Role }} position at this company: {{ CompanyWebsite }}
-3. This is JD: `jd.txt`
 
-Role:
-Act as the {{ RecruiterPosition }}, responsible for filling this role.
+I'm applying for a {{ Role }} position at this company: {{ CompanyWebsite }}
+
+Data for reference:
+1. Company Name: {{ CompanyName }}
+2. My research about company: `company-research.md`
+3. Skils company looking for: `jd-keywords.yaml`
+4. My current resume for the company: `Sonu_Parit-DevOps_Engineer-Resume.pdf`  
 
 Purpose:
-Create a downloadable `jd-keywords.yaml` file, that contains the Highest-priority technologies, engineering capabilities and responsibilities that you are looking in the resume, that can pass your ATS.
+I want a personalized, company-specific cover letter that demonstrates a clear understanding of the company's business, engineering challenges, and how my experience can contribute to solving them.
 
-Rules for file creation:
-1. Extract only "technologies", "engineering capabilities", and "responsibilities" that explicitly appear in the Job Description (JD) verbatim, eg:
-```eg-txt
-do not output "AWS" if the JD only says "cloud platform", keep output as "cloud platform".
-```
-2. Do not introduce any information that does not explicitly appear in the JD.
-3. Preserve the original capitalization, wording, grammar, punctuation, abbreviations, and verb forms exactly as written in the JD.
-4. If "engineering capabilities" or "responsibility" spans multiple words, preserve it verbatim.
-5. Keep the format for `jd-keywords.yaml` file, like this:
+Write a cover letter that makes the recruiter think, &quot;This candidate understands our business, understands our engineering challenges, and has experience that is directly relevant to solving them.&quot;
 
-```yaml
-required:
-  technologies:
-  - technology 1
-  - technology 2
-  ...
+Instructions:
+1. Before writing the cover letter, silently identify the three strongest connections between:
+  i.    the company's needs,
+  ii.   the job description,
+  iii.  and my experience.
   
-  engineering_capabilities:
-  - capability 1
-  - capability 2
-  ...
-  
-  responsibilities:
-  - responsibility 1
-  - responsibility 2
-  ...
+  Build the entire cover letter around those three connections.
 
-preferred:
-  technologies:
-  - technology 1
-  - technology 2
-  ...
-  
-  engineering_capabilities:
-  - capability 1
-  - capability 2
-  ...
-  
-  responsibilities:
-  - responsibility 1
-  - responsibility 2
-  ...
+2. Do not summarize my resume. Explain how my experience enables me to solve the company's business and engineering challenges.
+3. Connect my skills to the company's business outcomes.
+4. Avoid generic enthusiasm, clichés, and buzzwords. Every sentence should communicate specific value rather than general interest.
+5. Mention at least two specific facts about the company, its products, technology, engineering culture, or business direction to demonstrate genuine interest.
+6. Emphasize problem-solving and measurable impact.
+7. Never invent anything, that is not supported by the provided files.
+8. Every important claim about my abilities must be supported by evidence from `Sonu_Parit-DevOps_Engineer-Resume.pdf`. Show rather than tell.
+9. Present my experience accurately. Do not exaggerate my level of responsibility, seniority, or expertise.
+10. Each paragraph should have a single clear purpose. Avoid repeating the same idea across multiple paragraphs.
+11. Close with confidence by expressing enthusiasm for discussing how I can contribute, rather than simply thanking the reader.
+12. Target length: 250–350 words.
+13. Follow this structure:
 
-```
+  Paragraph 1
+  Why this company?
+
+  Paragraph 2
+  Why I fit this role?
+
+  Paragraph 3
+  How I can contribute?
+
+  Closing
+  Professional call to action.

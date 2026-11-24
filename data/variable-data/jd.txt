@@ -1,73 +1,13 @@
-About the job
-At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better, too. Join us and build an exceptional experience for yourself, and a better working world for all.
-
-DevOps Engineer
-
-Opening Paragraph
-
-As EY continues to evolve and modernize its digital platforms, we are seeking a talented DevOps Engineer to help accelerate the delivery, reliability, and scalability of our enterprise solutions. This role sits at the intersection of development, operations, automation, and cloud infrastructure, enabling teams to deliver innovative business capabilities faster and more securely. You will play a critical role in supporting modern digital experiences, driving automation, and ensuring our platforms operate efficiently and securely across a global environment.
-
-The Opportunity
-
-This is an exciting opportunity to join a high-performing technology team focused on delivering business-critical services and digital capabilities. As a DevOps Engineer, you will be responsible for building and maintaining the infrastructure, automation, and deployment processes that support our applications and platforms.
-
-You will work closely with development, operations, architecture, and business stakeholders to implement modern DevOps practices, improve operational efficiency, and enhance platform reliability. This role offers exposure to enterprise-scale systems, cloud technologies, automation frameworks, and continuous improvement initiatives while providing opportunities to influence the future direction of our technology landscape.
-
-Your Key Responsibilities
-
-As a DevOps Engineer, you will be responsible for supporting and enhancing the infrastructure, deployment pipelines, and operational processes that enable successful delivery of applications and services.
-
-Key responsibilities include:
-
-Design, implement, and maintain infrastructure solutions that support application hosting, data processing, analytics, and enterprise services.
-Develop and manage Continuous Integration and Continuous Deployment (CI/CD) pipelines to streamline software delivery and improve deployment quality and consistency.
-Implement monitoring, alerting, and logging capabilities to ensure system health, availability, and performance visibility.
-Automate operational and administrative tasks to reduce manual effort, increase efficiency, and improve reliability.
-Collaborate with development, operations, product, and business teams to ensure solutions meet business requirements and are delivered successfully.
-Support software releases, deployments, and infrastructure maintenance activities as required.
-Ensure platforms and services comply with organizational security standards, governance requirements, and regulatory obligations.
-Develop and implement best practices for access management, data protection, and system security.
-Analyze system performance, identify bottlenecks, and implement optimization strategies to improve scalability and operational efficiency.
-Participate in troubleshooting and root-cause analysis of production issues, driving long-term corrective actions and continuous improvement.
-
-Skills And Attributes For Success
-
-Success in this role requires a combination of technical expertise, problem-solving ability, collaboration, and a passion for automation and continuous improvement. You will be effective in a fast-paced environment where you can balance operational excellence with innovation and partnership across multiple teams.
-
-To Qualify for the Role, You Must Have
-
-Experience designing, implementing, and supporting enterprise infrastructure environments.
-Experience developing and maintaining CI/CD pipelines and deployment automation.
-Knowledge of monitoring, logging, and observability tools and practices.
-Experience automating operational processes using scripting and automation technologies.
-Understanding of security best practices, access controls, compliance requirements, and infrastructure governance.
-Strong troubleshooting and analytical skills with the ability to solve complex technical problems.
-Experience working collaboratively with cross-functional teams in an Agile delivery environment.
-Strong verbal and written communication skills.
-
-Ideally, You'll Also Have
-
-Experience with cloud platforms and modern cloud operations practices.
-Exposure to Infrastructure as Code (IaC) methodologies and automation frameworks.
-Knowledge of performance tuning, scalability planning, and system optimization.
-Experience supporting enterprise application deployments and release management processes.
-Experience working within large, globally distributed teams.
-Relevant DevOps, cloud, or infrastructure certifications.
-
-What We Look For
-
-We are looking for individuals who are curious, collaborative, and committed to continuous learning. The ideal candidate is proactive, adaptable, and comfortable taking ownership of challenges while working across global teams. You will be someone who embraces innovation, shares knowledge openly, and consistently seeks opportunities to improve processes, technology, and outcomes. A positive attitude, strong communication skills, and the ability to balance independent work with effective teamwork will be critical for success.
-
-What Working At EY Offers
-
-At EY, you'll have the opportunity to build a career as unique as you are, supported by a global scale, an inclusive culture, and technology to help you become the best version of yourself. You'll work on meaningful projects that impact our people, clients, and business while collaborating with talented professionals across diverse disciplines and geographies.
-
-We invest in our people through continuous learning, professional development, mentoring, and leadership opportunities. You'll be empowered to bring your ideas forward, challenge the status quo, and contribute to innovative solutions that help shape the future of our organization.
-
-EY | Building a better working world 
-
-EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.
-
-Enabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.
-
-Working across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today.
+🚀 WE'RE HIRING | DEVOPS ENGINEERS | GURUGRAMWe are looking for skilled and passionate DevOps professionals to join our growing engineering team!📌 Open Positions:🔹 DevOps Engineer – 1
+Experience: 2–4 Years
+🔹 DevOps Engineer – 2
+Experience: 4–6 Years
+🔹 Senior DevOps Engineer
+Experience: 6–8 Years
+💻 Required Skills:
+Strong hands-on experience in DevOps practices and tools.
+Good experience with either AWS or GCP.
+Understanding of CI/CD pipelines, cloud infrastructure, automation, and deployment processes.
+Excellent verbal and written communication skills.
+Strong problem-solving and collaboration abilities.
+📍 Job Location: Gurugram🏢 Work Mode: Hybrid⏳ Notice Period: Immediate Joiners Only⚡ Important: Strong communication skills are extremely important for all positions. Candidates must be available to join immediately.📩 Interested candidates can share their updated CV at:sachin@questhiring.comFeel free to share this opportunity with your network or tag relevant candidates!#Hiring #DevOps #DevOpsEngineer #SeniorDevOpsEngineer #AWS #GCP #CloudComputing #GurugramJobs #ImmediateJoiners #HybridJobs #ITJobs

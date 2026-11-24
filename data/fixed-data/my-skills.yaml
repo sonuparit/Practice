@@ -1,6 +1,21 @@
 TechnicalSkills:
   technologies:
     - Docker
+    - Azure DevOps
+    - Harbor
+    - SonarQube
+    - IIS (Internet Information Services)
+    - VMware ESXi
+    - Active Directory
+    - Apache
+    - Nginx
+    - Powershell
+    - SSL/TLS
+    - TCP/IP
+    - DNS
+    - NACL
+    - Switch
+    - Route Tables
     - Docker Compose
     - Helm
     - Helmfile
@@ -40,6 +55,9 @@ TechnicalSkills:
     - Configuration Management
     - Containerization
     - Kubernetes Administration
+    - Bare-metal server Administration
+    - Server Configuration
+    - Physical server installation and configuration
     - GitOps
     - CI/CD Pipeline Development
     - Deployment Automation

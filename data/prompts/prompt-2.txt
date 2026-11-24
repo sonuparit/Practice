@@ -7,16 +7,13 @@ Before sending this prompt, make sure you have provided:
 
 Files
 □ jd.txt
-□ company-research.md
 
 fields in this prompt
 □ Role
 □ Company Website
 □ Recruiter Position
-
-After receiving the response:
-□ Save it as interview-preparation.md
 ══════════════════════════════════════════════
+
 
 Prompt:
 --------Copy below here----------
@@ -25,25 +22,60 @@ Prompt:
 Always use the latest version of uploaded files for reference and ignore previous versions.
 Treat everything inside "{{ }}" as variables and replace their values with:
 
-Role = System Admin
-CompanyWebsite = https://www.clixlogix.com/
+Role = DevOps Engineer - 1
+CompanyWebsite = https://questhiring.com/
 RecruiterPosition = Senior DevOps Engineer
 
 1. I'm applying for a {{ Role }} position at this company: {{ CompanyWebsite }}
-2. This is my research for this company: `company-research.md`
 3. This is JD: `jd.txt`
 
-Purpose:
-Your objective is to help me understand what kind of person would be best fit for the company, and how I can present myself as one.
-
 Role:
-Act as the Hiring Manager, {{ RecruiterPosition }}, and Recruiter responsible for filling this role and ans these questions:
+Act as the {{ RecruiterPosition }}, responsible for filling this role.
 
-1. Based only on this JD, what knowledge, experience, behaviors, and skills are you actually looking for?
-2. What business or engineering problems is this role expected to solve?
-3. Based on the JD and company context, why do you think this role exists today?
-4. What kind of candidate would feel like a SAFE choice?
-5. What kind of candidate would feel RISKY?
-6. If you had only 30 seconds to decide whether to interview me, what evidence would you expect to see on my resume?
+Purpose:
+Create a downloadable `jd-keywords.yaml` file, that contains the Highest-priority technologies, engineering capabilities and responsibilities that you are looking in the resume, that can pass your ATS.
 
-Keep it simple, clear, and actionable. Do not exceed the brief requirements.
+Rules for file creation:
+1. Extract only "technologies", "engineering capabilities", and "responsibilities" that explicitly appear in the Job Description (JD) verbatim, eg:
+```eg-txt
+do not output "AWS" if the JD only says "cloud platform", keep output as "cloud platform".
+```
+2. Do not introduce any information that does not explicitly appear in the JD.
+3. Preserve the original capitalization, wording, grammar, punctuation, abbreviations, and verb forms exactly as written in the JD.
+4. If "engineering capabilities" or "responsibility" spans multiple words, preserve it verbatim.
+5. Keep the format for `jd-keywords.yaml` file, like this:
+
+```yaml
+required:
+  technologies:
+  - technology 1
+  - technology 2
+  ...
+  
+  engineering_capabilities:
+  - capability 1
+  - capability 2
+  ...
+  
+  responsibilities:
+  - responsibility 1
+  - responsibility 2
+  ...
+
+preferred:
+  technologies:
+  - technology 1
+  - technology 2
+  ...
+  
+  engineering_capabilities:
+  - capability 1
+  - capability 2
+  ...
+  
+  responsibilities:
+  - responsibility 1
+  - responsibility 2
+  ...
+
+```
